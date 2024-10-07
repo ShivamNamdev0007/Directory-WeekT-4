@@ -4,7 +4,7 @@ import PersonTable from "./components/PersonTable";
 import SearchForm from "./components/SearchForm";
 import Tabs from "./components/Tabs";
 import "./App.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   const [activeTab, setActiveTab] = useState("add"); 
